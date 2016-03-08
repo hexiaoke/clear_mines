@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>js版扫雷游戏</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="clear_mines.css">
+</head>
+<body>
+<div id="container">
+    <form id="game-form" name="game-form">
+        <input type="radio" name="version" value="1" checked>初级
+        <input type="radio" name="version" value="2">中级
+        <input type="radio" name="version" value="3">高级
+        <button  type="button" id="restart">重新开始新游戏</button>
+    </form>
+    <p id="success"></p>
+    <table id="game-box">
+    </table>
+</div>
+<script src="clear_mines.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
